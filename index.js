@@ -16,7 +16,7 @@ mongoose.connect(process.env.DATABASE, {
 .catch((err) => console.error(err+'Database Connection Failed'));
 
 app.get("/",(req, res)=>{
-    res.send("Welcome to Codingify Server");
+    res.send("Welcome to Codeish Server");
 });
 
 const user = require('./routers/user/user');
